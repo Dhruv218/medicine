@@ -8,7 +8,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import Logo from "../../images/logo.svg";
+import Logo from "../../images/logo2.jpg";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
@@ -28,7 +28,7 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-        <img src={Logo} alt="logo" height={"70"} width="200" />
+        <img src={Logo} alt="logo" className="w-[25px] h-[25px]" />
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
@@ -38,13 +38,13 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/menu"}>Menu</NavLink>
+          <NavLink to={"/menu"}>Herbs</NavLink>
         </li>
         <li>
-          <NavLink to={"/about"}>About</NavLink>
+          <NavLink to={"/about"}>Scanner</NavLink>
         </li>
         <li>
-          <NavLink to={"/contact"}>Contact</NavLink>
+          <NavLink to={"/contact"}>Affiliate With Us</NavLink>
         </li>
       </ul>
     </Box>
@@ -72,7 +72,7 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
-              <img src={Logo} alt="logo" height={"70"} width="250" />
+              <img src={Logo} alt="logo" className="rounded-full"/>
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
@@ -85,10 +85,10 @@ const Header = () => {
                   <NavLink to={"/menu"}>Menu</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/about"}>About</NavLink>
+                  <NavLink to={"/about"}>Scanner</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/contact"}>Contact</NavLink>
+                  <NavLink to={"/contact"}>Affiliate With Us</NavLink>
                 </li>
               </ul>
             </Box>

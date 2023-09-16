@@ -19,12 +19,9 @@ const Contact = () => {
   return (
     <Layout>
       <Box sx={{ my: 5, ml: 10, "& h4": { fontWeight: "bold", mb: 2 } }}>
-        <Typography variant="h4">Contact My Resturant</Typography>
+        <Typography variant="h4">Contact Us</Typography>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio
-          beatae ducimus magni nobis culpa praesentium velit expedita quae,
-          corrupti, pariatur inventore laboriosam consectetur modi impedit
-          error, repudiandae obcaecati doloribus.
+        Implementing affiliate marketing strategies for medicinal plant identification software can empower users, boost sales, and support conservation efforts. For instance, partnering with herbal medicine influencers to promote the software can help reach a wider audience and educate them about the importance of accurate identification, ultimately benefiting the ecosystem and end-users.
         </p>
       </Box>
       <Box
